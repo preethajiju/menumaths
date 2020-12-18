@@ -1,0 +1,48 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/mybackground"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:gravity="center"
+        android:hint="Enter No.1"
+        android:inputType="number"
+        android:id="@+id/num1"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:gravity="center"
+        android:hint="Enter No.2"
+        android:id="@+id/num2"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="SUBTRACT"
+        android:textColor="#00aabb"
+        android:layout_margin="10dp"
+        android:onClick="subevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="BACK TO MENU"
+        android:textColor="#00aabb"
+        android:layout_margin="10dp"
+        android:onClick="backevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/myresult"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
